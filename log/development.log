@@ -1,0 +1,1076 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-24 14:55:01) [GET]
+
+ActionController::RoutingError (No route matches "/grants" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-11-24 14:56:44) [GET]
+
+NameError (uninitialized constant GrantsController):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (45.8ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 14:58:03) [GET]
+
+NameError (uninitialized constant GrantsController::Grant):
+  app/controllers/grants_controller.rb:6:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 14:58:13) [GET]
+
+NameError (uninitialized constant GrantsController::Grant):
+  app/controllers/grants_controller.rb:6:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:00:01) [GET]
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `name_like_all' for #<Class:0x10152a1f0>):
+  app/controllers/grants_controller.rb:6:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (116.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:06:33) [GET]
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `name_like_all' for #<Class:0x1020e97e8>):
+  app/controllers/grants_controller.rb:6:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (51.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:06:34) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `name_like_all' for #<Class:0x10184fa60>):
+  app/controllers/grants_controller.rb:6:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:06:51) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `name_like_all' for #<Class:0x10019dc68>):
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/conditions.rb:88:in `method_missing'
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/association_conditions.rb:19:in `method_missing'
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/association_ordering.rb:27:in `method_missing'
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/ordering.rb:30:in `method_missing'
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/or_conditions.rb:24:in `method_missing'
+  app/controllers/grants_controller.rb:6:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (58.2ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#new (for 127.0.0.1 at 2009-11-24 15:07:37) [GET]
+
+ActionController::UnknownAction (No action responded to new. Actions: index):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateGrants (20091124171056)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:14:53) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `name_like_all' for #<Class:0x100197ed0>):
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/conditions.rb:88:in `method_missing'
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/association_conditions.rb:19:in `method_missing'
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/association_ordering.rb:27:in `method_missing'
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/ordering.rb:30:in `method_missing'
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/or_conditions.rb:24:in `method_missing'
+  app/controllers/grants_controller.rb:6:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (59.1ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:15:23) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `ascend_by_name' for #<Class:0x101e047d0>):
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/conditions.rb:88:in `method_missing'
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/association_conditions.rb:19:in `method_missing'
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/association_ordering.rb:27:in `method_missing'
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/ordering.rb:30:in `method_missing'
+  searchlogic (2.3.8) lib/searchlogic/named_scopes/or_conditions.rb:24:in `method_missing'
+  app/controllers/grants_controller.rb:6:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (124.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:15:44) [GET]
+
+ActionView::MissingTemplate (Missing template grants/index.erb in view path app/views):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:16:53) [GET]
+
+ActionView::MissingTemplate (Missing template grants/index.erb in view path app/views):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:16:54) [GET]
+
+ActionView::MissingTemplate (Missing template grants/index.erb in view path app/views):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:16:56) [GET]
+
+ActionView::MissingTemplate (Missing template grants/index.erb in view path app/views):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:17:26) [GET]
+Rendering grants/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/grants/index.html.erb:
+1: <!-- index.html.erb -->
+2: <h1>Firelight Foundation Grants</h1>
+3: <% form_for @search do |f| %>
+4:   <p>
+5:     <%= f.label :name_like, "Orginization Name" %><br />
+6:     <%= f.text_field :name_like %>
+
+    searchlogic (2.3.8) lib/searchlogic/rails_helpers.rb:61:in `form_for'
+    app/views/grants/index.html.erb:3
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (67.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:18:57) [GET]
+Rendering grants/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/grants/index.html.erb:
+1: <!-- index.html.erb -->
+2: <h1>Firelight Foundation Grants</h1>
+3: <% form_for @search do |f| %>
+4:   <p>
+5:     <%= f.label :org_name_like, "Orginization Name" %><br />
+6:     <%= f.text_field :org_name_like %>
+
+    searchlogic (2.3.8) lib/searchlogic/rails_helpers.rb:61:in `form_for'
+    app/views/grants/index.html.erb:3
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (130.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:22:31) [GET]
+Rendering grants/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #4 of app/views/grants/index.html.erb:
+1: <!-- index.html.erb -->
+2: <h1>Firelight Foundation Grants</h1>
+3: 
+4: <% form_for @search do |f| %>
+5:   <p>
+6:     <%= f.label :org_name_like, "Orginization Name" %><br />
+7:     <%= f.text_field :org_name_like %>
+
+    searchlogic (2.3.8) lib/searchlogic/rails_helpers.rb:61:in `form_for'
+    app/views/grants/index.html.erb:4
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (129.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#show (for 127.0.0.1 at 2009-11-24 15:22:51) [GET]
+  Parameters: {"id"=>"1"}
+Rendering grants/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.year_awarded) on line #3 of app/views/grants/show.html.erb:
+1: <p>
+2:   <b>Year awarded:</b>
+3:   <%=h @grant.year_awarded %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/grants/show.html.erb:3
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (61.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#show (for 127.0.0.1 at 2009-11-24 15:25:38) [GET]
+  Parameters: {"id"=>"1"}
+Rendering grants/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.year_awarded) on line #3 of app/views/grants/show.html.erb:
+1: <p>
+2:   <b>Year awarded:</b>
+3:   <%=h @grant.year_awarded %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/grants/show.html.erb:3
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#show (for 127.0.0.1 at 2009-11-24 15:25:40) [GET]
+  Parameters: {"id"=>"1"}
+Rendering grants/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.year_awarded) on line #3 of app/views/grants/show.html.erb:
+1: <p>
+2:   <b>Year awarded:</b>
+3:   <%=h @grant.year_awarded %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/grants/show.html.erb:3
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (123.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:25:43) [GET]
+Rendering grants/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #4 of app/views/grants/index.html.erb:
+1: <!-- index.html.erb -->
+2: <h1>Firelight Foundation Grants</h1>
+3: 
+4: <% form_for @search do |f| %>
+5:   <p>
+6:     <%= f.label :org_name_like, "Orginization Name" %><br />
+7:     <%= f.text_field :org_name_like %>
+
+    searchlogic (2.3.8) lib/searchlogic/rails_helpers.rb:61:in `form_for'
+    app/views/grants/index.html.erb:4
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (66.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:28:24) [GET]
+  [4;36;1mGrant Load (418.5ms)[0m   [0;1mSELECT * FROM "grants" [0m
+
+NoMethodError (undefined method `all' for #<Array:0x1040391e8>):
+  app/controllers/grants_controller.rb:6:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (51.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:28:26) [GET]
+  [4;35;1mGrant Load (416.8ms)[0m   [0mSELECT * FROM "grants" [0m
+
+NoMethodError (undefined method `all' for #<Array:0x103f68840>):
+  app/controllers/grants_controller.rb:6:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:29:41) [GET]
+  [4;36;1mGrant Load (434.7ms)[0m   [0;1mSELECT * FROM "grants" [0m
+
+NoMethodError (undefined method `all' for #<Array:0x1040f55f0>):
+  app/controllers/grants_controller.rb:6:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (50.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:30:55) [GET]
+  [4;35;1mGrant Load (418.3ms)[0m   [0mSELECT * FROM "grants" [0m
+Rendering grants/index
+Completed in 9617ms (View: 9009, DB: 418) | 200 OK [http://localhost/grants/]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:31:21) [GET]
+  Parameters: {"commit"=>"Submit", "search"=>{"org_name_like"=>"GLobal", "order"=>""}}
+  [4;36;1mGrant Load (6.3ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.org_name LIKE '%GLobal%') [0m
+Rendering grants/index
+Completed in 115ms (View: 92, DB: 6) | 200 OK [http://localhost/grants?search%5Border%5D=&search%5Borg_name_like%5D=GLobal&commit=Submit]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:32:39) [GET]
+  Parameters: {"search"=>{"org_name_like"=>"GLobal", "order"=>"ascend_by_amount_awarded"}}
+  [4;35;1mGrant Load (6.7ms)[0m   [0mSELECT * FROM "grants" WHERE (grants.org_name LIKE '%GLobal%') ORDER BY grants.amount_awarded ASC[0m
+Rendering grants/index
+Completed in 120ms (View: 95, DB: 7) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_amount_awarded&search%5Borg_name_like%5D=GLobal]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:32:44) [GET]
+  Parameters: {"search"=>{"org_name_like"=>"GLobal", "order"=>"ascend_by_org_name"}}
+  [4;36;1mGrant Load (11.6ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.org_name LIKE '%GLobal%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 121ms (View: 86, DB: 12) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=GLobal]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:32:52) [GET]
+  Parameters: {"commit"=>"Submit", "search"=>{"org_name_like"=>"Women", "order"=>"ascend_by_org_name"}}
+  [4;35;1mGrant Load (23.1ms)[0m   [0mSELECT * FROM "grants" WHERE (grants.org_name LIKE '%Women%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 579ms (View: 529, DB: 23) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=Women&commit=Submit]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:33:06) [GET]
+  Parameters: {"search"=>{"org_name_like"=>"Women", "order"=>"ascend_by_amount_awarded"}}
+  [4;36;1mGrant Load (22.8ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.org_name LIKE '%Women%') ORDER BY grants.amount_awarded ASC[0m
+Rendering grants/index
+Completed in 596ms (View: 546, DB: 23) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_amount_awarded&search%5Borg_name_like%5D=Women]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:33:18) [GET]
+  Parameters: {"search"=>{"org_name_like"=>"Women", "order"=>"ascend_by_org_name"}}
+  [4;35;1mGrant Load (22.7ms)[0m   [0mSELECT * FROM "grants" WHERE (grants.org_name LIKE '%Women%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 607ms (View: 556, DB: 23) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=Women]
+
+
+Processing GrantsController#show (for 127.0.0.1 at 2009-11-24 15:34:17) [GET]
+  Parameters: {"id"=>"434"}
+Rendering grants/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.year_awarded) on line #3 of app/views/grants/show.html.erb:
+1: <p>
+2:   <b>Year awarded:</b>
+3:   <%=h @grant.year_awarded %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/grants/show.html.erb:3
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (61.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#show (for 127.0.0.1 at 2009-11-24 15:35:33) [GET]
+  Parameters: {"id"=>"434"}
+Rendering grants/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.year_awarded) on line #3 of app/views/grants/show.html.erb:
+1: <p>
+2:   <b>Year awarded:</b>
+3:   <%=h @grant.year_awarded %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/grants/show.html.erb:3
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (157.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#show (for 127.0.0.1 at 2009-11-24 15:36:14) [GET]
+  Parameters: {"id"=>"434"}
+Rendering grants/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.year_awarded) on line #3 of app/views/grants/show.html.erb:
+1: <p>
+2:   <b>Year awarded:</b>
+3:   <%=h @grant.year_awarded %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/grants/show.html.erb:3
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (63.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#show (for 127.0.0.1 at 2009-11-24 15:36:15) [GET]
+  Parameters: {"id"=>"434"}
+Rendering grants/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.year_awarded) on line #3 of app/views/grants/show.html.erb:
+1: <p>
+2:   <b>Year awarded:</b>
+3:   <%=h @grant.year_awarded %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/grants/show.html.erb:3
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (148.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#edit (for 127.0.0.1 at 2009-11-24 15:36:36) [GET]
+  Parameters: {"id"=>"434"}
+Rendering grants/edit
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/grants/edit.html.erb:
+1: <h1>Editing grant</h1>
+2: 
+3: <% form_for(@grant) do |f| %>
+4:   <%= f.error_messages %>
+5: 
+6:   <p>
+
+    searchlogic (2.3.8) lib/searchlogic/rails_helpers.rb:61:in `form_for'
+    app/views/grants/edit.html.erb:3
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (66.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:36:55) [GET]
+  Parameters: {"commit"=>"Submit", "search"=>{"org_name_like"=>"AIDS", "order"=>"ascend_by_org_name"}}
+  [4;36;1mGrant Load (35.4ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.org_name LIKE '%AIDS%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 941ms (View: 873, DB: 35) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=AIDS&commit=Submit]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:37:04) [GET]
+  Parameters: {"search"=>{"org_name_like"=>"AIDS", "order"=>"descend_by_org_name"}}
+  [4;35;1mGrant Load (34.6ms)[0m   [0mSELECT * FROM "grants" WHERE (grants.org_name LIKE '%AIDS%') ORDER BY grants.org_name DESC[0m
+Rendering grants/index
+Completed in 862ms (View: 794, DB: 35) | 200 OK [http://localhost/grants?search%5Border%5D=descend_by_org_name&search%5Borg_name_like%5D=AIDS]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:37:07) [GET]
+  Parameters: {"search"=>{"org_name_like"=>"AIDS", "order"=>"ascend_by_amount_awarded"}}
+  [4;36;1mGrant Load (34.5ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.org_name LIKE '%AIDS%') ORDER BY grants.amount_awarded ASC[0m
+Rendering grants/index
+Completed in 862ms (View: 795, DB: 35) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_amount_awarded&search%5Borg_name_like%5D=AIDS]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:37:33) [GET]
+  Parameters: {"search"=>{"org_name_like"=>"AIDS", "order"=>"descend_by_amount_awarded"}}
+  [4;35;1mGrant Load (34.6ms)[0m   [0mSELECT * FROM "grants" WHERE (grants.org_name LIKE '%AIDS%') ORDER BY grants.amount_awarded DESC[0m
+Rendering grants/index
+Completed in 871ms (View: 803, DB: 35) | 200 OK [http://localhost/grants?search%5Border%5D=descend_by_amount_awarded&search%5Borg_name_like%5D=AIDS]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:37:36) [GET]
+  Parameters: {"search"=>{"org_name_like"=>"AIDS", "order"=>"ascend_by_org_name"}}
+  [4;36;1mGrant Load (34.8ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.org_name LIKE '%AIDS%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 871ms (View: 804, DB: 35) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=AIDS]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:37:57) [GET]
+  Parameters: {"commit"=>"Submit", "search"=>{"org_name_like"=>"New", "order"=>"ascend_by_org_name"}}
+  [4;35;1mGrant Load (5.2ms)[0m   [0mSELECT * FROM "grants" WHERE (grants.org_name LIKE '%New%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 182ms (View: 159, DB: 5) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=New&commit=Submit]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:41:50) [GET]
+  Parameters: {"commit"=>"Submit", "search"=>{"org_name_like"=>"New", "order"=>"ascend_by_org_name"}}
+  [4;36;1mGrant Load (5.2ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.org_name LIKE '%New%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 92ms (View: 68, DB: 5) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=New&commit=Submit]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:41:56) [GET]
+  Parameters: {"commit"=>"Submit", "search"=>{"pr_description_like"=>"implementation", "org_name_like"=>"New", "order"=>"ascend_by_org_name"}}
+  [4;35;1mGrant Load (3.9ms)[0m   [0mSELECT * FROM "grants" WHERE ((grants.org_name LIKE '%New%') AND (grants.pr_description LIKE '%implementation%')) ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 47ms (View: 24, DB: 4) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=New&search%5Bpr_description_like%5D=implementation&commit=Submit]
+
+
+Processing GrantsController#show (for 127.0.0.1 at 2009-11-24 15:42:36) [GET]
+  Parameters: {"id"=>"320"}
+Rendering grants/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.year_awarded) on line #3 of app/views/grants/show.html.erb:
+1: <p>
+2:   <b>Year awarded:</b>
+3:   <%=h @grant.year_awarded %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/grants/show.html.erb:3
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:43:08) [GET]
+  Parameters: {"commit"=>"Submit", "search"=>{"pr_description_like"=>"implementation", "org_name_like"=>"", "order"=>"ascend_by_org_name"}}
+  [4;36;1mGrant Load (6.1ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%implementation%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 148ms (View: 38, DB: 6) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=&search%5Bpr_description_like%5D=implementation&commit=Submit]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:43:14) [GET]
+  Parameters: {"search"=>{"pr_description_like"=>"implementation", "order"=>"descend_by_org_name"}}
+  [4;35;1mGrant Load (6.2ms)[0m   [0mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%implementation%') ORDER BY grants.org_name DESC[0m
+Rendering grants/index
+Completed in 62ms (View: 38, DB: 6) | 200 OK [http://localhost/grants?search%5Border%5D=descend_by_org_name&search%5Bpr_description_like%5D=implementation]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:45:40) [GET]
+  Parameters: {"search"=>{"pr_description_like"=>"implementation", "order"=>"descend_by_org_name"}}
+  [4;36;1mGrant Load (6.5ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%implementation%') ORDER BY grants.org_name DESC[0m
+Rendering grants/index
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+ActionView::TemplateError (undefined local variable or method `size' for #<ActionView::Base:0x1041a5770>) on line #38 of app/views/grants/index.html.erb:
+35: 
+36: <% @grants.each do |grant| %>
+37:   <tr>
+38:     <td><%=h grant.org_name, size => 30 %></td>
+39:     <td><%=h grant.pr_description %></td>
+40:     <td><%=h grant.org_city %></td>
+41:     <td><%=h grant.year_awarded %></td>
+
+    app/views/grants/index.html.erb:38
+    app/views/grants/index.html.erb:36:in `each'
+    app/views/grants/index.html.erb:36
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:46:17) [GET]
+  Parameters: {"search"=>{"pr_description_like"=>"implementation", "order"=>"descend_by_org_name"}}
+  [4;35;1mGrant Load (6.1ms)[0m   [0mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%implementation%') ORDER BY grants.org_name DESC[0m
+Rendering grants/index
+
+ActionView::TemplateError (wrong number of arguments (2 for 1)) on line #38 of app/views/grants/index.html.erb:
+35: 
+36: <% @grants.each do |grant| %>
+37:   <tr>
+38:     <td><%=h grant.org_name, :size => 30 %></td>
+39:     <td><%=h grant.pr_description %></td>
+40:     <td><%=h grant.org_city %></td>
+41:     <td><%=h grant.year_awarded %></td>
+
+    app/views/grants/index.html.erb:38:in `h'
+    app/views/grants/index.html.erb:38
+    app/views/grants/index.html.erb:36:in `each'
+    app/views/grants/index.html.erb:36
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:46:32) [GET]
+  Parameters: {"search"=>{"pr_description_like"=>"implementation", "order"=>"descend_by_org_name"}}
+  [4;36;1mGrant Load (6.1ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%implementation%') ORDER BY grants.org_name DESC[0m
+Rendering grants/index
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #38 of app/views/grants/index.html.erb:
+35: 
+36: <% @grants.each do |grant| %>
+37:   <tr>
+38:     <td><%=h grant.org_name :size => 30 %></td>
+39:     <td><%=h grant.pr_description %></td>
+40:     <td><%=h grant.org_city %></td>
+41:     <td><%=h grant.year_awarded %></td>
+
+    app/views/grants/index.html.erb:38
+    app/views/grants/index.html.erb:36:in `each'
+    app/views/grants/index.html.erb:36
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (149.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:48:16) [GET]
+  Parameters: {"search"=>{"pr_description_like"=>"implementation", "order"=>"descend_by_org_name"}}
+  [4;35;1mGrant Load (6.2ms)[0m   [0mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%implementation%') ORDER BY grants.org_name DESC[0m
+Rendering grants/index
+Completed in 69ms (View: 45, DB: 6) | 200 OK [http://localhost/grants?search%5Border%5D=descend_by_org_name&search%5Bpr_description_like%5D=implementation]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:48:50) [GET]
+  Parameters: {"search"=>{"pr_description_like"=>"implementation", "order"=>"descend_by_org_name"}}
+  [4;36;1mGrant Load (6.2ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%implementation%') ORDER BY grants.org_name DESC[0m
+Rendering grants/index
+Completed in 81ms (View: 57, DB: 6) | 200 OK [http://localhost/grants?search%5Border%5D=descend_by_org_name&search%5Bpr_description_like%5D=implementation]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:49:13) [GET]
+  Parameters: {"search"=>{"pr_description_like"=>"implementation", "order"=>"ascend_by_org_name"}}
+  [4;35;1mGrant Load (6.1ms)[0m   [0mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%implementation%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 63ms (View: 38, DB: 6) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Bpr_description_like%5D=implementation]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:49:25) [GET]
+  Parameters: {"commit"=>"Submit", "search"=>{"pr_description_like"=>"implementation, year", "org_name_like"=>"", "order"=>"ascend_by_org_name"}}
+  [4;36;1mGrant Load (4.8ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%implementation, year%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 33ms (View: 11, DB: 5) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=&search%5Bpr_description_like%5D=implementation%2C+year&commit=Submit]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:49:33) [GET]
+  Parameters: {"commit"=>"Submit", "search"=>{"pr_description_like"=>"year", "org_name_like"=>"", "order"=>"ascend_by_org_name"}}
+  [4;35;1mGrant Load (51.4ms)[0m   [0mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%year%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 1237ms (View: 1144, DB: 51) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=&search%5Bpr_description_like%5D=year&commit=Submit]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:51:28) [GET]
+  Parameters: {"commit"=>"Submit", "search"=>{"pr_description_like"=>"year", "org_name_like"=>"", "order"=>"ascend_by_org_name"}}
+  [4;36;1mGrant Load (51.9ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%year%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 1369ms (View: 1276, DB: 52) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=&search%5Bpr_description_like%5D=year&commit=Submit]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:51:29) [GET]
+  Parameters: {"commit"=>"Submit", "search"=>{"pr_description_like"=>"year", "org_name_like"=>"", "order"=>"ascend_by_org_name"}}
+  [4;35;1mGrant Load (51.2ms)[0m   [0mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%year%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 1432ms (View: 1340, DB: 51) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=&search%5Bpr_description_like%5D=year&commit=Submit]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:51:34) [GET]
+  Parameters: {"commit"=>"Submit", "search"=>{"pr_description_like"=>"year", "org_name_like"=>"", "order"=>"ascend_by_org_name"}}
+  [4;36;1mGrant Load (51.3ms)[0m   [0;1mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%year%') ORDER BY grants.org_name ASC[0m
+Rendering grants/index
+Completed in 1355ms (View: 1264, DB: 51) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_org_name&search%5Borg_name_like%5D=&search%5Bpr_description_like%5D=year&commit=Submit]
+
+
+Processing GrantsController#index (for 127.0.0.1 at 2009-11-24 15:51:51) [GET]
+  Parameters: {"search"=>{"pr_description_like"=>"year", "order"=>"ascend_by_amount_awarded"}}
+  [4;35;1mGrant Load (54.0ms)[0m   [0mSELECT * FROM "grants" WHERE (grants.pr_description LIKE '%year%') ORDER BY grants.amount_awarded ASC[0m
+Rendering grants/index
+Completed in 1348ms (View: 1252, DB: 54) | 200 OK [http://localhost/grants?search%5Border%5D=ascend_by_amount_awarded&search%5Bpr_description_like%5D=year]

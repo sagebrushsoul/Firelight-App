@@ -1,0 +1,52 @@
+<!-- index.html.erb -->
+<h1>Firelight Foundation Grants</h1>
+
+<% form_for @search do |f| %>
+  <p>
+    <%= f.label :org_name_like, "Organization Name" %><br />
+    <%= f.text_field :org_name_like %>
+  </p>
+    <p>
+    <%= f.label :pr_description_like, "Description Keyword Search" %><br />
+    <%= f.text_field :pr_description_like %>
+  </p>
+ 
+  <p>
+    <%= f.submit "Submit" %>
+  </p>
+<% end %>
+
+<p>
+  Sort by:
+  <%= order @search, :by => :org_name %> |
+  <%= order @search, :by => :amount_awarded %>
+</p>
+
+
+
+<table>
+  <table frame="box">
+  <tr>
+    <th>Grantee Partner Name</th>
+    <th>Grant Description</th>
+    <th>City</th>
+    <th>Year Awarded</th>
+    <th>Amount Awarded</th>
+  </tr>
+  
+
+<% @grants.each do |grant| %>
+  <tr>
+    <td><%=h grant.org_name %></td>
+    <td><%=h grant.pr_description %></td>
+    <td><%=h grant.org_city %></td>
+    <td><%=h grant.year_awarded %></td>
+    <td><%=h grant.amount_awarded %></td>
+    <td><%= link_to 'Show', grant %></td>
+    <td><%= link_to 'Edit', edit_grant_path(grant) %></td>
+    <td><%= link_to 'Delete', grant, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+
